@@ -1,0 +1,19 @@
+# dependencies
+/click-it-game/node_modules
+
+# testing
+/click-it-game/coverage
+
+# production
+/click-it-game/build
+
+# misc
+/click-it-game.DS_Store
+/click-it-game.env.local
+/click-it-game.env.development.local
+/click-it-game.env.test.local
+/click-it-game.env.production.local
+
+/click-it-gamenpm-debug.log*
+/click-it-gameyarn-debug.log*
+/click-it-gameyarn-error.log*

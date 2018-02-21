@@ -1,12 +1,12 @@
-.wrapper {
-    /* padding-top: 50px; */
+.game-div {
+    padding-top: 50px;
     background: #ECEFF1;
     height: 100%;
-    /* width: 50%; */
-    /* margin: auto; */
+    width: 80%;
+    margin: 0% 20%;
     display: flex;
     flex-flow: row wrap;
-    /* padding: 20px; */
+    padding: 20px;
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;

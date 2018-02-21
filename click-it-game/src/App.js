@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import ImageCard from "./components/ImageCard/";
 import Wrapper from "./components/Wrapper/";
-// import Title from "./components/Title";
+import Title from "./components/Title/";
+import GameDiv from "./components/GameDiv/";
 import images from "./images.json";
 import "./App.css";
 
@@ -22,15 +23,18 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        {/* <Title>Friends List</Title> */}
-        {this.state.images.map(image => (
-          <ImageCard
-            // removeFriend={this.removeFriend}
-            id={image.id}
-            key={image.id}
-            image={image.image}
-          />
-        ))}
+        <Title>Click It By Memory</Title>
+        {/* Need to add a score banner */}
+        <GameDiv>
+          {this.state.images.map(image => (
+            <ImageCard
+              // removeFriend={this.removeFriend}
+              id={image.id}
+              key={image.id}
+              image={image.image}
+            />
+          ))}
+        </GameDiv>
       </Wrapper>
     );
   }
